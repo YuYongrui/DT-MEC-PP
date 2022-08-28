@@ -1,0 +1,33 @@
+#TITLE=Python
+; EditPlus Auto-completion File for Python written by Kaweh Kazemi.
+
+#CASE=y
+
+#T=class
+class ^!:
+    def __init__(self):
+	
+#T=def
+def ^!():
+	
+#T=if
+if ^!:
+
+#T=elif
+elif ^!:
+	
+#T=else
+else:
+    ^!
+#T=while
+while ^!:
+	
+#T=for
+for ^! in :
+	
+#T=try
+try:
+    ^!
+#T=except
+except ^!:
+	
